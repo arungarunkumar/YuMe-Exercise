@@ -258,6 +258,9 @@ h1 {
 .padNone {
   padding: 0 !important;
 }
+.toggle {
+  color: #000;
+}
 /* Header */
 header {
   background: #e6e7e9;
@@ -444,6 +447,7 @@ header {
 }
 .table {
   padding-top: 22px;
+  width: 1300px;
 }
 .table td,
 .table th {
@@ -633,6 +637,9 @@ footer {
   }
   .dealsHeader div .addDeal:hover {
     color: #FFF;
+  }
+  .table {
+    width: 100%;
   }
   .detailsWrapper {
     margin-top: 40px;
