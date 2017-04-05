@@ -53,12 +53,12 @@ input:active {
   outline: none;
 }
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px #b15aa0 inset;
+  -webkit-box-shadow: 0 0 0px 1000px #768997 inset;
   -webkit-text-fill-color: #fff !important;
 }
 input:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0px 1000px #b15aa0 inset;
-  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #768997 inset;
+  -webkit-text-fill-color: #919ea6 !important;
 }
 body {
   background: #FFF;
