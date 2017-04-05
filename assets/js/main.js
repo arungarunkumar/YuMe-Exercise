@@ -9,10 +9,5 @@ $(document).ready(function()
 
       $('#' + $(this).data('ele')).slideToggle(100);
   });
-  $('#demo').ReStable({
-      rowHeaders: true,
-      maxWidth: 480,
-      keepHtml: false
-  });
 
 });
