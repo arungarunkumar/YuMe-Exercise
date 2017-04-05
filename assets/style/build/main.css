@@ -274,6 +274,7 @@ header {
 }
 .headerLft .logo {
   display: block;
+  margin-bottom: 22px;
 }
 .headerLft .logo img {
   margin: 0 auto;
@@ -282,6 +283,7 @@ header {
   display: block;
   font-weight: 500;
   text-align: center;
+  margin-bottom: 22px;
 }
 .headerLft nav a {
   display: inline-block;
@@ -607,6 +609,11 @@ footer {
   display: block;
   text-align: center;
 }
+@media screen and (min-width: 600px) {
+  .headerRgt {
+    float: right;
+  }
+}
 @media screen and (min-width: 894px) {
   .headerLft {
     float: left;
@@ -615,13 +622,12 @@ footer {
     display: inline-block;
     vertical-align: middle;
     margin-right: 24px;
+    margin-bottom: 0;
   }
   .headerLft nav {
     display: inline-block;
     vertical-align: middle;
-  }
-  .headerRgt {
-    float: right;
+    margin-bottom: 0;
   }
   .headerRgt a {
     font-size: 16px;
