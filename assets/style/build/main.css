@@ -32,7 +32,7 @@ h6 {
 }
 body,
 html {
-  font-family: helvetica;
+  font-family: yume;
 }
 a {
   text-decoration: none;
@@ -77,19 +77,19 @@ body {
 }
 /* Custom Fonts */
 @font-face {
-  font-family: helvetica;
+  font-family: yume;
   src: url("../../font/gothamBold.woff2") format("woff2"), url("../../font/gothamBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: helvetica;
+  font-family: yume;
   src: url("../../font/gothamMedium.woff2") format("woff2"), url("../../font/gothamMedium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: helvetica;
+  font-family: yume;
   src: url("../../font/gothamLight.woff2") format("woff2"), url("../../font/gothamLight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
